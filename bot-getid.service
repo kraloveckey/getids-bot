@@ -1,0 +1,14 @@
+[Unit]
+Description=GetIDs Bot Telegram
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=node /opt/getids-bot/index.js
+
+[Install]
+WantedBy=multi-user.target
