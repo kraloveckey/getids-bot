@@ -1,0 +1,9 @@
+stages:
+  - "lint"
+
+check formatting:
+  stage: "lint"
+  image: "docker.io/node:16-alpine"
+  script:
+    - "npm install prettier"
+    - "npx prettier --check ./"
