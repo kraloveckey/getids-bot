@@ -1,7 +1,5 @@
 # GetIDsBot
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/kraloveckey)
-
 ## Introduction.
 
 GetIDsBot is a chatbot for the Telegram Messaging Plattform which main purpose
@@ -42,3 +40,9 @@ the dates and used some dark magic called "maths" to estimate a creation date.
 - Clone repository.
 - Run `npm install` into repository directory.
 - Run `node index.js` or create the systemd.service <code>bot-getid.service</code>.
+
+---
+
+<a href="https://www.paypal.com/donate/?hosted_button_id=GWWLEXEF3XL92">
+  <img src="https://raw.githubusercontent.com/kraloveckey/kraloveckey/refs/heads/main/.assets/paypal-donate-button.png" alt="Donate with PayPal" width="225" height="100"/>
+</a>
